@@ -1,0 +1,38 @@
+
+    @font-face {
+        src:url(montserrat/Montserrat-Light.otf);
+        font-family:montser;
+    }
+       @font-face {
+        src:url(montserrat/Montserrat-Thin.otf);
+        font-family:montser2;
+    }
+           @font-face {
+        src:url(moon/Moon2.0-Regular.otf);
+        font-family:moon;
+    }
+    body,html{
+        margin:0;
+    }
+    .header {
+        font-family: moon;
+        text-align: center;
+        font-size: 55px;
+   
+    }
+    .tiles {
+        width: 10%;
+        height: 16%;
+        border: 2px solid black;  
+        font-family: montser;
+        font-size: 40px;   
+        transition: all 0.1s ease;
+        
+        
+    }
+    .tiles:hover{
+        font-size: 40px; 
+        background:black;
+        color:white;
+    }
+   

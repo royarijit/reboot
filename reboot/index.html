@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <script>
+        function scroll() {
+            var h = window.innerHeight;
+            window.scrollBy(0, h);
+        }
+
+    </script>
+    <style>
+        .next {
+            text-decoration: none;
+            border-radius: 50%;
+            width: 100%;
+            height: 40px;
+            position: fixed;
+            bottom: 0;
+
+
+        }
+
+        .cir {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 2px;
+            color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background: crimson;
+            border: 2px solid crimson;
+            cursor: pointer;
+
+        }
+
+        .page {
+            height: 100vh;
+        }
+
+        .content {
+
+            width: 100%;
+            height: 100%;
+            color: white;
+            font-family: montser2;
+            font-size: 82px;
+
+        }
+
+        .content2 {
+            font-family: montser;
+            text-align: center;
+
+
+            width: 100%;
+            height: 100%;
+            color: white;
+
+            font-size: 82px;
+        }
+
+        .con {}
+
+
+        @font-face {
+            src: url(montserrat/Montserrat-Light.otf);
+            font-family: montser;
+        }
+
+        @font-face {
+            src: url(montserrat/Montserrat-Thin.otf);
+            font-family: montser2;
+        }
+
+        @font-face {
+            src: url(moon/Moon2.0-Regular.otf);
+            font-family: moon;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            animation: changecol 24s infinite;
+            background: linear-gradient( 45deg, #0099ff, #ff6699);
+        }
+
+        .header {
+            font-family: moon;
+            text-align: center;
+            font-size: 75px;
+            padding: 1%;
+
+        }
+
+        .tiles {
+            max-width: 10%;
+            max-height: 16%;
+            border: 2px solid white;
+            font-family: montser;
+            font-size: 40px;
+            transition: all 0.2s ease;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 3.5%;
+            padding-right: 3.5%;
+            border-radius: 45px;
+            color: #7a0099;
+            background: white;
+            z-index: 0;
+            font-weight: bold;
+
+        }
+
+        .tiles:hover {
+            background: #7a0099;
+            color: white;
+            border: 2px solid #7a0099;
+        }
+
+        @media screen and (max-width:640px) {
+            .tiles {
+                max-width: 8%;
+                max-height: 3%;
+                border: 2px solid white;
+                font-family: montser;
+                font-size: 28px;
+                transition: all 0.3s ease;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                padding-left: 5%;
+                padding-right: 5%;
+                border-radius: 45px;
+                color: #7a0099;
+                background: white;
+                z-index: 0;
+
+
+            }
+            .content2 {
+                font-family: montser;
+                text-align: center;
+
+
+                width: 100%;
+                height: 100%;
+                color: white;
+
+                font-size: 45px;
+            }
+            .content {
+
+                width: 100%;
+                height: 50%;
+                color: white;
+                font-family: montser2;
+                font-size: 55px;
+
+            }
+            .header {
+                font-family: moon;
+                text-align: center;
+                font-size: 55px;
+
+            }
+        }
+
+        @media screen and (max-width:360px) {
+            .tiles {
+                max-width: 8%;
+                max-height: 3%;
+                border: 2px solid white;
+                font-family: montser;
+                font-size: 20px;
+                transition: all 0.3s ease;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                padding-left: 7%;
+                padding-right: 7%;
+                border-radius: 45px;
+                color: #7a0099;
+                background: white;
+                z-index: 0;
+
+            }
+            .content {
+
+                width: 100%;
+                height: 50%;
+                color: white;
+                font-family: montser2;
+                font-size: 40px;
+
+            }
+            .header {
+                font-family: moon;
+                text-align: center;
+                font-size: 50px;
+
+
+            }
+        }
+
+    </style>
+
+    <title>Reboot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="page">
+        <div class=header>Reb
+            <font color=white>oo</font>t</div>
+        <hr color=white>
+
+        <center>
+            <p class="content">
+                <b>The Best Place for a Student and a Teacher</b>
+            </p>
+            <center>
+                <span class="tiles">Sign Up</span> &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="tiles">Log In</span>
+
+            </center>
+
+
+        </center>
+        <div onclick="scroll()" class="next">
+            <center>
+                <div class="cir">&darr;</div>
+            </center>
+        </div>
+    </div>
+    <div class="page" id="c1">
+
+        <div class=content2>
+            <br><br><br> Sometimes you are alone but your Teacher could help you
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class=content2>
+        <br><br><br> Sometimes you are alone but your Teacher could help you
+
+    </div>
+
+
+
+    
+</body>
+
+</html>
