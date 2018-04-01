@@ -4,6 +4,195 @@
     <title>
     </title>
     <style>
+         .next{
+         text-decoration: none;
+         border-radius: 50%;
+         width: 100%;
+         height: 40px;
+         position:fixed;
+         bottom: 0;
+        
+         
+     }
+       .next2{
+         text-decoration: none;
+         border-radius: 50%;
+         width: 100%;
+         height: 40px;
+        
+         float:right;
+    
+     }
+     .cir{
+         text-decoration: none;
+        font-size:20px;
+         padding:2px;
+         color:white;
+         border-radius: 50%;
+         width: 30px;
+         height: 30px;
+         background:crimson;
+         border: 2px solid crimson;
+         cursor:pointer;
+         
+     }
+     .page{
+         height:100vh;
+     }
+.content{
+    
+    width: 100%;
+    height: 100%;
+   color:white;
+     font-family: montser2;
+     font-size: 82px;
+    
+}
+    .content2 {
+        font-family: montser;
+        text-align: center;
+        
+        
+        width: 100%;
+    height: 100%;
+       color:white;
+     
+     font-size: 82px;
+    }
+    .con{
+      
+    }
+
+    
+    @font-face {
+        src:url(montserrat/Montserrat-Light.otf);
+        font-family:montser;
+    }
+       @font-face {
+        src:url(montserrat/Montserrat-Thin.otf);
+        font-family:montser2;
+    }
+           @font-face {
+        src:url(moon/Moon2.0-Regular.otf);
+        font-family:moon;
+    }
+    body,html{
+        height:100%;
+        margin:0;
+        animation : changecol 24s infinite;
+        background: linear-gradient( 45deg,#0099ff,#ff6699);
+    }
+    .header {
+        font-family: moon;
+        text-align: center;
+        font-size: 75px;
+        padding:1%;
+        
+    }
+    .tiles {
+        max-width: 10%;
+        max-height: 16%;
+        border: 2px solid white;  
+        font-family: montser;
+        font-size: 40px;   
+        transition: all 0.2s ease;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left:3.5%;
+        padding-right:3.5%;
+        border-radius: 45px;
+        color:#7a0099;
+        background:white;
+        z-index: 0;
+        font-weight: bold;
+        
+    }
+.tiles:hover{
+    background:#7a0099;
+    color:white;
+     border: 2px solid #7a0099; 
+}
+    @media screen and (max-width:640px){
+         .tiles {
+        max-width: 8%;
+        max-height: 3%;
+        border: 2px solid white;  
+        font-family: montser;
+        font-size: 28px;   
+        transition: all 0.3s ease;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left:5%;
+        padding-right:5%;
+        border-radius: 45px;
+        color:#7a0099;
+        background:white;
+        z-index: 0;
+       
+        
+    }
+    .content2 {
+        font-family: montser;
+        text-align: center;
+        
+        
+        width: 100%;
+    height: 100%;
+       color:white;
+     
+     font-size:40px;
+    }
+    .content{
+    
+    width: 100%;
+    height: 50%;
+   color:white;
+     font-family: montser2;
+     font-size: 55px;
+
+}
+      .header {
+        font-family: moon;
+        text-align: center;
+        font-size: 55px;
+   
+    }
+    }
+    @media screen and (max-width:360px){
+         .tiles {
+        max-width: 8%;
+        max-height: 3%;
+        border: 2px solid white;  
+        font-family: montser;
+        font-size: 20px;   
+        transition: all 0.3s ease;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left:7%;
+        padding-right:7%;
+        border-radius: 45px;
+        color:#7a0099;
+        background:white;
+        z-index: 0;
+        
+    }
+        .content{
+    
+    width: 100%;
+    height: 50%;
+   color:white;
+     font-family: montser2;
+     font-size: 40px;
+
+}
+         .header {
+        font-family: moon;
+        text-align: center;
+        font-size: 50px;
+        
+   
+    }
+    }
         .profilepic {
             height: 100px;
             width: 100px;
@@ -54,7 +243,7 @@
         <font face="caviar dreams" size="7" color="sky blue">oo</font>
         <font face="caviar dreams" size="6" color="#434343">t</font>
         <br><br><br><br>
-        <font face="caviar dreams" size="6" color="#ffffff"><b>CREATE YOUR PROFILE</b></font>
+        <font class=content><b>CREATE YOUR PROFILE</b></font>
         <br><br><br><br>
         <div class="cardbutton1"></div>
         <br><br><br>
